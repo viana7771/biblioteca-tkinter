@@ -4,6 +4,11 @@ window = tk.Tk()
 window.title('Futuro programa')
 window.geometry('700x400')
 
-tk.Label(window, text='Meu primeiro label').pack()
+tk.Label(
+    window,
+    text='Sistema',
+    font=('Arial', 12),
+    fg='black'
+).pack()
 
 window.mainloop()
